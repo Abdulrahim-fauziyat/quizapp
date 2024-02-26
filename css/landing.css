@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    background-image: url(../../img/abstract-blue-background-with-waves-and-liquid-shape-for-landing-page-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #8d34a1;
+    padding: 10px 20px;
+    color: #fff;
+    list-style-type: none;
+    border: 0;
+    box-shadow: #adaaaa 1px 1px 1px;
+}
+
+.navigation img {
+    height: 40px;
+    margin: 2em 2em 0 2em;
+}
+ 
+  .listers li {
+    display: flex !important;
+    float: left;
+    /* gap: 10px; */
+    list-style: none !important; 
+     margin: 2em;
+    padding: auto;
+  
+}
+ 
+
+a{
+    color: red;
+}
+
+ li {
+    cursor: pointer;
+    color: #fff; /* Ensure text color matches navigation color */
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+.toggle-menu {
+    display: none; /* Hide toggle menu by default */
+}
+
+.landingpage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.landingpage h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.landingpage input[type="text"],
+.landingpage input[type="email"],
+.landingpage input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 0;
+    box-shadow: black 1px 1px 1px;
+    border-radius: 3px;
+    
+}
+
+.landingpage button {
+    padding: 10px 20px;
+    background-color: #8d34a1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Make buttons fill the width */
+    border: 0;
+    box-shadow: rgb(92, 90, 90) 1px 1px 1px;
+    border-radius: 3px;
+    
+}
+
+
+ #register{
+    background-color: rgb(90, 37, 214);
+    margin-bottom: 1em;
+ }
+
+
+
+ .landingpage :hover  button, #register :hover button{
+    background-color: red;
+    color: #fff;
+}
+
+.landingpage p {
+    margin-top: 20px;
+}
+
+
